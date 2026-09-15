@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frionex | Ar-condicionado</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      .store-link {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .store-card {
+        transition:
+          transform 0.2s ease,
+          background-color 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      .store-link:hover .store-card,
+      .store-link:focus-visible .store-card {
+        background-color: #0dcaf0 !important;
+        color: #000 !important;
+        transform: translateY(-4px);
+        box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.2) !important;
+      }
+
+      .store-link:focus-visible {
+        outline: 3px solid #212529;
+        outline-offset: 4px;
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Frionex</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicos.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ofertas.html">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container py-4">
+      <section
+        class="p-3 p-md-5 mb-4 bg-primary text-white border border-3 border-dark rounded-3 shadow-sm"
+      >
+        <div class="container-fluid py-3">
+          <h1 class="display-5 fw-bold">Frionex</h1>
+          <p class="col-md-8 fs-4">
+            Ar-condicionado para deixar sua casa ou empresa confortável em
+            qualquer estação do ano.
+          </p>
+          <a class="btn btn-light text-primary btn-lg" href="ofertas.html">
+            Ver ofertas
+          </a>
+        </div>
+      </section>
+
+      <div class="row g-4 mb-4">
+        <div class="col-12 col-sm-6">
+          <a class="store-link" href="produtos.html">
+            <div
+              class="store-card p-3 p-md-4 bg-light border border-3 border-primary rounded-3 shadow-sm h-100"
+            >
+              <h2>Ar-condicionado Split</h2>
+              <p class="mb-0">
+                Modelos silenciosos, econômicos e ideais para quartos e salas.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6">
+          <a class="store-link" href="produtos.html">
+            <div
+              class="store-card p-3 p-md-4 bg-light border border-3 border-primary rounded-3 shadow-sm h-100"
+            >
+              <h2>Ar-condicionado Portátil</h2>
+              <p class="mb-0">
+                Praticidade para refrescar diferentes ambientes sem instalação.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row g-4 mb-4">
+        <div class="col-12 col-sm-4">
+          <a class="store-link" href="servicos.html">
+            <div
+              class="store-card p-3 p-md-4 bg-primary text-white border border-3 border-dark rounded-3 shadow-sm h-100"
+            >
+              <h2>Instalação</h2>
+              <p class="mb-0">
+                Equipe especializada para instalar seu aparelho.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4">
+          <a class="store-link" href="servicos.html">
+            <div
+              class="store-card p-3 p-md-4 bg-success text-white border border-3 border-dark rounded-3 shadow-sm h-100"
+            >
+              <h2>Manutenção</h2>
+              <p class="mb-0">Limpeza e revisão para melhorar o desempenho.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-4">
+          <a class="store-link" href="produtos.html">
+            <div
+              class="store-card p-3 p-md-4 bg-warning border border-3 border-dark rounded-3 shadow-sm h-100"
+            >
+              <h2>Peças e Filtros</h2>
+              <p class="mb-0">
+                Filtros e acessórios para manter o ar mais puro.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-sm-4">
+          <a class="store-link" href="ofertas.html">
+            <div
+              class="store-card p-3 p-md-4 bg-dark text-white border border-3 border-secondary rounded-3 shadow-sm h-100"
+            >
+              <h2>Oferta da Semana</h2>
+              <p class="mb-0">
+                Split Inverter 12.000 BTUs com instalação inclusa.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-8">
+          <a class="store-link" href="contato.html">
+            <div
+              class="store-card p-3 p-md-4 bg-info border border-3 border-dark rounded-3 shadow-sm h-100"
+            >
+              <h2>Fale com um especialista</h2>
+              <p class="mb-0">
+                Receba ajuda para escolher a capacidade ideal e economize na sua
+                conta de energia.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
